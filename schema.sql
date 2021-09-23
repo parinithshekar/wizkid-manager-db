@@ -1,4 +1,6 @@
 -- delete all tables, domains and functions
+DROP DATABASE IF EXISTS owow;
+CREATE DATABASE owow;
 \c owow
 DROP SCHEMA IF EXISTS public CASCADE;
 CREATE SCHEMA public;
